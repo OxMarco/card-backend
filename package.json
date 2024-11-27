@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@covalenthq/client-sdk": "^2.2.1"
+  },
+  "scripts": {
+    "start": "nest start"
   }
 }
