@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@covalenthq/client-sdk": "^2.2.1"
+  }
+}
