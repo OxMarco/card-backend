@@ -1,4 +1,4 @@
-import { CovalentClient } from "@covalenthq/client-sdk";
+import { Client } from "@covalenthq/client-sdk";
 
 // Your code here
 const ApiServices = async () => {
