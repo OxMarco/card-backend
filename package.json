@@ -3,6 +3,10 @@
     "@covalenthq/client-sdk": "^2.2.1"
   },
   "scripts": {
-    "start": "nest start"
+    "start": "nest start",
+    "dev": "npm run start:dev",
+    "prod": "npm run start:prod",
+    "test": "npm test",
+    "lint": " npm run lint"
   }
 }
