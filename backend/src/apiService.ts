@@ -1,7 +1,7 @@
-import { CovalentClient } from "@covalenthq/client-sdk";
+import { GoldRushClient } from "@covalenthq/client-sdk";
 
 const ApiServices = async () => {
-    const client = new Client("cqt_rQtw8GqQ7cfXHBjXPtT7V6qG4r8J");
+    const client = new GoldRushClient("cqt_rQtw8GqQ7cfXHBjXPtT7V6qG4r8J");
     const resp = await client.BalancesService.getTokenBalancesForWalletAddress({
         chainId: "eth-mainnet",
         address: "demo.eth"
