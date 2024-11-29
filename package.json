@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@covalenthq/client-sdk": "^2.2.1",
+    "lint": "^0.8.19"
+  },
+  "scripts": {
+    "start": "nest start",
+    "dev": "npm run start:dev",
+    "prod": "npm run start:prod",
+    "test": "npm test",
+    "lint": " npm run lint"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/parser": "^8.16.0",
+    "eslint": "^9.15.0"
+  }
+}
